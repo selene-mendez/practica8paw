@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#060e11;
+}
+.areaPrincipal{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 10;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;   
+}
+#encabezado{
+    background: #fccf0af5;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #15101b;
+    color: white;/*color de letra dentro de la clase*/
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 100px;
+    position: relative;
+    top:200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos{
+    width: 80%;
+    background-color: #88e94f;
+    height: 900px;
+    margin: auto;
+    opacity: 1;
+    color:#040542;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+}
+.tamaño{
+    width: 150px;
+    height: 150px;
+}
+.t2{
+    width: 300px;
+    height: 150px;
+}
